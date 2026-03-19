@@ -10,6 +10,8 @@
   - Authentication Vulnerabilities: 2
   - API Testing: 4
 
+IDOR / Broken Object Level Authorization identified and exploited across Hack The Box (Nocturnal), PortSwigger Web Security Academy, and OWASP crAPI
+
 ## Hack The Box Machines
 
 | # | Machine | OS | Difficulty | Status |
@@ -95,3 +97,22 @@
 | 2 | Exploiting server-side parameter pollution in a query string | Practitioner |
 | 3 | Finding and exploiting an unused API endpoint | Practitioner |
 | 4 | Exploiting a mass assignment vulnerability | Practitioner |
+
+### Bug Bounty Practice — OWASP crAPI
+
+Skills developed through structured bug bounty practice against OWASP crAPI,
+a deliberately vulnerable API application aligned with the OWASP API Security Top 10.
+
+#### Vulnerability Types Identified
+- Insecure Direct Object Reference (IDOR)
+- Broken Object Level Authorization (BOLA)
+- JWT Algorithm None Attack
+- Information Disclosure Leading to Authorization Bypass
+
+#### Techniques Practiced
+- Sequential ID Enumeration & Manipulation
+- Parameter Tampering (URL & JSON Body)
+- JWT Token Manipulation
+- Vulnerability Chaining (Data Leak → IDOR)
+- API Endpoint Discovery & Analysis
+- Burp Suite (Intercept, Modify, Replay)
