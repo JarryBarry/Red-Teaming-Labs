@@ -1,0 +1,97 @@
+## Red Teaming Progress Summary
+
+- **Hack The Box Machines:** 20
+  - ✅ Full Own: 18
+  - 🟡 User Only: 2
+- **PortSwigger Labs Solved:**
+  - SQL Injection: 10
+  - OS Command Injection: 3
+  - Access Control Vulnerabilities: 5
+  - Authentication Vulnerabilities: 2
+  - API Testing: 4
+
+## Hack The Box Machines
+
+| # | Machine | OS | Difficulty | Status |
+|---|---------|----|------------|--------|
+| 1 | Intentions | Linux | Hard | ✅ Full Own (User + System) |
+| 2 | WingData | Linux | Easy | 🟡 User Only |
+| 3 | Pterodactyl | Linux | Medium | 🟡 User Only |
+| 4 | Knife | Linux | Easy | ✅ Full Own |
+| 5 | Love | Windows | Easy | ✅ Full Own |
+| 6 | Nocturnal | Linux | Easy | ✅ Full Own |
+| 7 | Editorial | Linux | Easy | ✅ Full Own |
+| 8 | Headless | Linux | Easy | ✅ Full Own |
+| 9 | CozyHosting | Linux | Easy | ✅ Full Own |
+| 10 | Sau | Linux | Easy | ✅ Full Own |
+| 11 | Facts | Linux | Easy | ✅ Full Own |
+| 12 | Shocker | Linux | Easy | ✅ Full Own |
+| 13 | Devel | Windows | Easy | ✅ Full Own |
+| 14 | Legacy | Windows | Easy | ✅ Full Own |
+| 15 | Admirer | Linux | Easy | ✅ Full Own |
+| 16 | Nibbles | Linux | Easy | ✅ Full Own |
+| 17 | Lame | Linux | Easy | ✅ Full Own |
+| 18 | Bounty | Windows | Easy | ✅ Full Own |
+| 19 | Cap | Linux | Easy | ✅ Full Own |
+| 20 | Blue | Windows | Easy | ✅ Full Own |
+
+---
+
+## PortSwigger Web Security Academy — Solved Labs
+
+### SQL Injection (10 solved)
+
+| # | Lab Name | Difficulty |
+|---|----------|------------|
+| 1 | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | Apprentice |
+| 2 | SQL injection vulnerability allowing login bypass | Apprentice |
+| 3 | SQL injection attack, querying the database type and version on Oracle | Practitioner |
+| 4 | SQL injection attack, querying the database type and version on MySQL and Microsoft | Practitioner |
+| 5 | SQL injection attack, listing the database contents on non-Oracle databases | Practitioner |
+| 6 | SQL injection attack, listing the database contents on Oracle | Practitioner |
+| 7 | SQL injection UNION attack, determining the number of columns returned by the query | Practitioner |
+| 8 | SQL injection UNION attack, finding a column containing text | Practitioner |
+| 9 | SQL injection UNION attack, retrieving data from other tables | Practitioner |
+| 10 | SQL injection UNION attack, retrieving multiple values in a single column | Practitioner |
+
+---
+
+### OS Command Injection (3 solved)
+
+| # | Lab Name | Difficulty |
+|---|----------|------------|
+| 1 | OS command injection, simple case | Apprentice |
+| 2 | Blind OS command injection with time delays | Practitioner |
+| 3 | Blind OS command injection with output redirection | Practitioner |
+
+---
+
+### Access Control Vulnerabilities (5 solved)
+
+| # | Lab Name | Difficulty |
+|---|----------|------------|
+| 1 | Unprotected admin functionality | Apprentice |
+| 2 | Unprotected admin functionality with unpredictable URL | Apprentice |
+| 3 | User role controlled by request parameter | Apprentice |
+| 4 | User ID controlled by request parameter, with unpredictable user IDs | Apprentice |
+| 5 | User ID controlled by request parameter with data leakage in redirect | Apprentice |
+
+---
+
+### Authentication Vulnerabilities (2 solved)
+
+| # | Lab Name | Difficulty |
+|---|----------|------------|
+| 1 | Username enumeration via different responses | Apprentice |
+| 2 | Username enumeration via subtly different responses | Practitioner |
+
+---
+
+### API Testing (4 solved)
+
+| # | Lab Name | Difficulty |
+|---|----------|------------|
+| 1 | Exploiting an API endpoint using documentation | Apprentice |
+| 2 | Exploiting server-side parameter pollution in a query string | Practitioner |
+| 3 | Finding and exploiting an unused API endpoint | Practitioner |
+| 4 | Exploiting a mass assignment vulnerability | Practitioner |
