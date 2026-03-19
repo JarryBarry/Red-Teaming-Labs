@@ -116,3 +116,24 @@ a deliberately vulnerable API application aligned with the OWASP API Security To
 - Vulnerability Chaining (Data Leak → IDOR)
 - API Endpoint Discovery & Analysis
 - Burp Suite (Intercept, Modify, Replay)
+
+
+### Bug Bounty Practice — VAmPI (Vulnerable API)
+
+Skills developed through independent vulnerability research against VAmPI, a deliberately 
+vulnerable API designed for practicing the OWASP API Security Top 10.
+
+#### Vulnerability Types Identified
+- Insecure Direct Object Reference (IDOR)
+- Broken Object Level Authorization (BOLA)
+- Broken Function Level Authorization (BFLA) Testing
+- Excessive Data Exposure
+
+#### Techniques Practiced
+- OpenAPI / Swagger Documentation Analysis
+- RESTful API Endpoint Enumeration
+- Path Parameter Tampering (/users/v1/{username}/password)
+- JWT Authentication Validation Testing
+- Manual Request Manipulation (Burp Suite)
+- Independent Vulnerability Identification (Zero-Hint Lab)
+
